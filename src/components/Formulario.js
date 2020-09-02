@@ -43,7 +43,7 @@ const Formulario = ({busqueda,guardarBusqueda,guardarConsultar}) => {
                     id="ciudad"
                     onChange={handleChange}
                 />
-                <label htmlfor="ciudad">Ciudad:</label>
+                <label htmlFor="ciudad">Ciudad:</label>
             </div>
             <div className="input-field cold s12">
                 <select 
@@ -61,7 +61,7 @@ const Formulario = ({busqueda,guardarBusqueda,guardarConsultar}) => {
                     <option value="ES">España</option>
                     <option value="PE">Perú</option>
                 </select>
-                <label htmlfor="pais">Pais:</label>
+                <label htmlFor="pais">Pais:</label>
             </div>
             <div className="input-field cold s12">
                 <input  

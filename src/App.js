@@ -33,6 +33,7 @@ const consultarAPI = async () => {
   }
 }}
 consultarAPI();
+//eslint-disable-next-line
 },[consultar]);
 let componente;
 if(error) {
